@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Cat</title>
+    <style>        
+        body{
+            background-color:#FFCCCC; 
+        }
+        .catcategry{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;            
+        }
+        .card{            
+            background-color: #CCFFFF;
+            flex: 1;
+            margin: 30px; 
+            border-radius: 15px;
+        }
+        .title{          
+            text-align: center; 
+        }
+         .content{       
+            padding-left: 40px;   
+            padding-right: 40px; 
+        }
+        h1{            
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 2em;
+            text-align: center; 
+        }
+        h3{            
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.2em;
+        }
+        h6{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 0.6em;
+            color: rgba(0, 0, 0, 0.54);                        
+        }
+        .lovebutton {                        
+            margin-left: 10px;  
+            border:none;
+            background: none;  
+            border-radius: 100px;                                  
+        }
+        .lovebutton:hover{
+            background: rgba(0, 0, 0, 0.54);
+        }
+        .sharebutton {      
+            margin-left: 0px; 
+            border:none;
+            background: none;  
+            border-radius: 100px; 
+        }
+        .sharebutton:hover{
+            background: rgba(0, 0, 0, 0.54);
+        }
+        .dropbutton {            
+            border:none;
+            background: none;
+            display: block;
+            float: right;
+            margin-right: 10px;   
+            margin-bottom: 5px; 
+            border-radius: 100px;            
+        }
+        .dropbutton:hover{
+            background: rgba(0, 0, 0, 0.54);
+        }
+    </style>
+</head>
+<body>
+    <h1>Cat Category</h1>
+    <div class = "catcategry">
+        <div class = "card">
+            <div class = "shorthair">
+                <div class = "title">
+                    <h3>Short-Hair</h3>
+                </div>
+                <p>
+                    <img src="Domestic Short Hair.jpg" width=100% height=100% style="border:0;" alt="Domestic Short Hair" />
+                    <div class = "content">
+                        <h6>A domestic short-haired cat is a cat of mixed ancestry - thus not belonging to any particular recognized cat breed - possessing a coat of short fur.</h6>
+                    </div>
+                </p>
+                <div>
+                    <button class="lovebutton">       
+                        <img src="filled-like.png" height=20px>     
+                    </button>
+                    <button class="sharebutton">       
+                        <img src="share.png" height=20px>     
+                    </button>
+                    <button class="dropbutton">       
+                        <img src="drag-list-down.png" height=20px>     
+                    </button>                                      
+                </div>
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "title">
+                <h3>Ragdoll</h3>
+            </div>            
+            <p>
+                <img src="Ragdoll.jpg" width=100% height=100%  style="border:0;" alt="Ragdoll" />
+                <div class = "content">
+                    <h6>The Ragdoll is a cat breed with a color point coat and blue eyes. They are large and muscular semi-longhair cats with a soft and silky coat.</h6>
+                </div>
+            </p>
+            <div class="button">
+                <button class="lovebutton">       
+                    <img src="filled-like.png" height=20px>     
+                </button>
+                <button class="sharebutton">       
+                    <img src="share.png" height=20px>     
+                </button>
+                <button class="dropbutton">       
+                    <img src="drag-list-down.png" height=20px>     
+                </button>                                      
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "title">
+                <h3>Persian</h3>
+            </div>             
+            <p>
+                <img src="Persian_Cat.jpg" width=100% height=100%  style="border:0;" alt="Persian" />
+                <div class = "content">
+                    <h6>The Persian cat is a long-haired breed of cat characterized by its round face and short muzzle.</h6>
+                </div>
+            </p>
+            <div>
+                <button class="lovebutton">       
+                    <img src="filled-like.png" height=20px>     
+                </button>
+                <button class="sharebutton">       
+                    <img src="share.png" height=20px>     
+                </button>
+                <button class="dropbutton">       
+                    <img src="drag-list-down.png" height=20px>     
+                </button>                                      
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "title">
+                <h3>Siamese</h3>
+            </div>  
+            <p>
+                <img src="Siamese.jpg" width=100% height=100%  style="border:0;" alt="Siamese" />
+                <div class = "content">
+                    <h6>The Siamese cat is one of the first distinctly recognized breeds of Asian cat. Derived from the Wichianmat landrace to Thailand.</h6>
+                </div>
+            </p>
+            <div>
+                <button class="lovebutton">       
+                    <img src="filled-like.png" height=20px>     
+                </button>
+                <button class="sharebutton">       
+                    <img src="share.png" height=20px>     
+                </button>
+                <button class="dropbutton">       
+                    <img src="drag-list-down.png" height=20px>     
+                </button>                                      
+            </div>
+        </div>      
+    </div>
+</body>
+</html>
