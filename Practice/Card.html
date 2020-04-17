@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Cat</title>
-    <style>        
+
+    <style>
+        /* 大体的布局做的还是不错的，下面是一些改进意见
+1. 命名的时候尽量用BEM, 比如card, card__header, card__header__left, card__header__right
+2. 最上面的那一排可以参考demo试着做一下，可以练习一下布局和位置，比如左右，上下，居中,这个是重点
+3. icon是可以用font-awsome来直接用的，比img要好，可以调颜色，背景也是transparent的 */
+
         body{
             background-color:#FFCCCC; 
         }
@@ -28,6 +34,7 @@
             padding-right: 40px; 
         }
         h1{            
+            /* 如果字体是公用的可以写在最上面的body里 */
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-size: 2em;
             text-align: center; 
